@@ -1,0 +1,53 @@
+body{margin:0;padding:0;background:#ffc7ea;font-size:14px;font-family:'微软雅黑','宋体',sans-serif;color:#231F20;overflow:auto}
+a {color:#000;font-size:14px;}
+#main{width:100%;}
+#wrap{position:relative;margin:0 auto;width:1100px;height:680px;margin-top:10px;}
+#text{width:400px;height:425px;left:60px;top:10px;position:absolute;}
+#code{display:none;font-size:16px;}
+#clock-box {position:absolute;left:60px;top:550px;font-size:28px;display:none;}
+#clock-box a {font-size:28px;text-decoration:none;}
+#clock{margin-left:48px;}
+#clock .digit {font-size:64px;}
+#canvas{margin:0 auto;width:1100px;height:680px;}
+#error{margin:0 auto;text-align:center;margin-top:60px;display:none;}
+.hand{cursor:pointer;}
+.say{margin-left:1px;}
+.space{margin-right:150px;}
+.hinh_trai_tim {
+    position: relative;
+    left: 96px;box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+}
+.hinh_trai_tim:before,.hinh_trai_tim:after {
+    content: "";
+    width: 70px;
+    height: 115px;
+    position: absolute;
+    background: #fe6cb9;
+    left: 70px;
+    top: 0;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+    
+}
+.hinh_trai_tim :hover{
+    cursor: pointer;
+    box-shadow: none;
+}
+.hinh_trai_tim:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+.ky_niem{  
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top:100px
+}
+.ky_niem h1{
+    position: fixed;
+    top: 209px;
+    left: 20px;
+    color: #fe6cb9;
+}
